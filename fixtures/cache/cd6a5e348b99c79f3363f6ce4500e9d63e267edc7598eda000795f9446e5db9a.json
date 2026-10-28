@@ -1,0 +1,22 @@
+{
+  "key": "cd6a5e348b99c79f3363f6ce4500e9d63e267edc7598eda000795f9446e5db9a",
+  "feature": "skin-simulation",
+  "endpoint": "/s2s/v2.0/task/skin-simulation",
+  "params": {
+    "pores": 0.6,
+    "spots": 0.5
+  },
+  "units": 4,
+  "raw": {
+    "status": 200,
+    "data": {
+      "error": null,
+      "results": {
+        "url": "https://yce-us.s3-accelerate.amazonaws.com/ttl30/518216250837445943/123552892166/v2/aeMNNB0KmUIP8rnQ996tC5Q/136dd861-0655-4d08-a25b-2422fabaac4c.png?[signature-removed]"
+      },
+      "task_status": "success"
+    }
+  },
+  "image": "cd6a5e348b99c79f3363f6ce4500e9d63e267edc7598eda000795f9446e5db9a/simulated.jpg",
+  "createdAt": "2026-10-28T00:14:59.947Z"
+}

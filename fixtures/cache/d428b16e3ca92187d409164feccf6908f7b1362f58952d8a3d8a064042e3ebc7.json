@@ -1,0 +1,84 @@
+{
+  "key": "d428b16e3ca92187d409164feccf6908f7b1362f58952d8a3d8a064042e3ebc7",
+  "feature": "skin-analysis",
+  "endpoint": "/s2s/v2.0/task/skin-analysis",
+  "concerns": [
+    "pore",
+    "age_spot",
+    "acne",
+    "redness"
+  ],
+  "units": 9,
+  "raw": {
+    "status": 200,
+    "data": {
+      "error": null,
+      "results": {
+        "output": [
+          {
+            "ui_score": 64,
+            "mask_urls": [
+              "https://yce-us.s3-accelerate.amazonaws.com/ttl30/518216250837445943/123552943754/v2/aeMNNB0KmUIP8rnQ996tC5Q/c7a39800-0689-4356-8510-54d28b665f6b_pore_output.png?[signature-removed]"
+            ],
+            "raw_score": 42.21232736110687,
+            "type": "pore",
+            "url": null
+          },
+          {
+            "ui_score": 72,
+            "mask_urls": [
+              "https://yce-us.s3-accelerate.amazonaws.com/ttl30/518216250837445943/123552943754/v2/aeMNNB0KmUIP8rnQ996tC5Q/c7a39800-0689-4356-8510-54d28b665f6b_age_spot_output.png?[signature-removed]"
+            ],
+            "raw_score": 73.3951644897461,
+            "type": "age_spot",
+            "url": null
+          },
+          {
+            "ui_score": 70,
+            "mask_urls": [
+              "https://yce-us.s3-accelerate.amazonaws.com/ttl30/518216250837445943/123552943754/v2/aeMNNB0KmUIP8rnQ996tC5Q/c7a39800-0689-4356-8510-54d28b665f6b_redness_output.png?[signature-removed]"
+            ],
+            "raw_score": 55.108116149902344,
+            "type": "redness",
+            "url": null
+          },
+          {
+            "ui_score": 74,
+            "mask_urls": [
+              "https://yce-us.s3-accelerate.amazonaws.com/ttl30/518216250837445943/123552943754/v2/aeMNNB0KmUIP8rnQ996tC5Q/c7a39800-0689-4356-8510-54d28b665f6b_acne_output.png?[signature-removed]"
+            ],
+            "raw_score": 64.02168,
+            "type": "acne",
+            "url": null
+          },
+          {
+            "score": 70,
+            "type": "all",
+            "url": null
+          },
+          {
+            "score": 35,
+            "type": "skin_age",
+            "url": null
+          },
+          {
+            "mask_urls": [
+              "https://yce-us.s3-accelerate.amazonaws.com/ttl30/518216250837445943/123552943754/v2/aeMNNB0KmUIP8rnQ996tC5Q/c7a39800-0689-4356-8510-54d28b665f6b_resize_image.jpg?[signature-removed]"
+            ],
+            "type": "resize_image",
+            "url": null
+          }
+        ]
+      },
+      "task_status": "success"
+    }
+  },
+  "masks": {
+    "pore": "d428b16e3ca92187d409164feccf6908f7b1362f58952d8a3d8a064042e3ebc7/pore.png",
+    "age_spot": "d428b16e3ca92187d409164feccf6908f7b1362f58952d8a3d8a064042e3ebc7/age_spot.png",
+    "redness": "d428b16e3ca92187d409164feccf6908f7b1362f58952d8a3d8a064042e3ebc7/redness.png",
+    "acne": "d428b16e3ca92187d409164feccf6908f7b1362f58952d8a3d8a064042e3ebc7/acne.png",
+    "resize_image": "d428b16e3ca92187d409164feccf6908f7b1362f58952d8a3d8a064042e3ebc7/resize_image.png"
+  },
+  "createdAt": "2026-10-28T00:15:50.264Z"
+}

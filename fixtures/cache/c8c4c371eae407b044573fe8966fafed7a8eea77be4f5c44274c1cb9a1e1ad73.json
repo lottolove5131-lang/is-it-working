@@ -1,0 +1,236 @@
+{
+  "key": "c8c4c371eae407b044573fe8966fafed7a8eea77be4f5c44274c1cb9a1e1ad73",
+  "feature": "skin-analysis",
+  "endpoint": "/s2s/v2.0/task/skin-analysis",
+  "concerns": [
+    "wrinkle",
+    "pore",
+    "texture",
+    "acne",
+    "oiliness",
+    "radiance",
+    "eye_bag",
+    "age_spot",
+    "dark_circle_v2",
+    "droopy_upper_eyelid",
+    "droopy_lower_eyelid",
+    "firmness",
+    "moisture",
+    "redness",
+    "tear_trough",
+    "skin_type"
+  ],
+  "units": 16,
+  "raw": {
+    "status": 200,
+    "data": {
+      "error": null,
+      "results": {
+        "output": [
+          {
+            "ui_score": 76,
+            "mask_urls": [
+              "https://yce-us.s3-accelerate.amazonaws.com/ttl30/518216250837445943/123553632877/v2/aeMNNB0KmUIP8rnQ996tC5Q/38275115-af96-46e2-8854-97f197d32d29_droopy_lower_eyelid_output.png?[signature-removed]"
+            ],
+            "raw_score": 69.28772926330566,
+            "type": "droopy_lower_eyelid",
+            "url": null
+          },
+          {
+            "ui_score": 75,
+            "mask_urls": [
+              "https://yce-us.s3-accelerate.amazonaws.com/ttl30/518216250837445943/123553632877/v2/aeMNNB0KmUIP8rnQ996tC5Q/38275115-af96-46e2-8854-97f197d32d29_tear_trough_output.png?[signature-removed]"
+            ],
+            "raw_score": 66.02357029914856,
+            "type": "tear_trough",
+            "url": null
+          },
+          {
+            "ui_score": 70,
+            "mask_urls": [
+              "https://yce-us.s3-accelerate.amazonaws.com/ttl30/518216250837445943/123553632877/v2/aeMNNB0KmUIP8rnQ996tC5Q/38275115-af96-46e2-8854-97f197d32d29_redness_output.png?[signature-removed]"
+            ],
+            "raw_score": 54.71194839477539,
+            "type": "redness",
+            "url": null
+          },
+          {
+            "ui_score": 67,
+            "mask_urls": [
+              "https://yce-us.s3-accelerate.amazonaws.com/ttl30/518216250837445943/123553632877/v2/aeMNNB0KmUIP8rnQ996tC5Q/38275115-af96-46e2-8854-97f197d32d29_firmness_output.png?[signature-removed]"
+            ],
+            "raw_score": 49.369797110557556,
+            "type": "firmness",
+            "url": null
+          },
+          {
+            "ui_score": 66,
+            "mask_urls": [
+              "https://yce-us.s3-accelerate.amazonaws.com/ttl30/518216250837445943/123553632877/v2/aeMNNB0KmUIP8rnQ996tC5Q/38275115-af96-46e2-8854-97f197d32d29_pore_output.png?[signature-removed]"
+            ],
+            "raw_score": 47.436445116996765,
+            "type": "pore",
+            "url": null
+          },
+          {
+            "ui_score": 82,
+            "mask_urls": [
+              "https://yce-us.s3-accelerate.amazonaws.com/ttl30/518216250837445943/123553632877/v2/aeMNNB0KmUIP8rnQ996tC5Q/38275115-af96-46e2-8854-97f197d32d29_droopy_upper_eyelid_output.png?[signature-removed]"
+            ],
+            "raw_score": 82.42780566215515,
+            "type": "droopy_upper_eyelid",
+            "url": null
+          },
+          {
+            "ui_score": 76,
+            "mask_urls": [
+              "https://yce-us.s3-accelerate.amazonaws.com/ttl30/518216250837445943/123553632877/v2/aeMNNB0KmUIP8rnQ996tC5Q/38275115-af96-46e2-8854-97f197d32d29_oiliness_output.png?[signature-removed]"
+            ],
+            "raw_score": 68.88024139404297,
+            "type": "oiliness",
+            "url": null
+          },
+          {
+            "ui_score": 76,
+            "mask_urls": [
+              "https://yce-us.s3-accelerate.amazonaws.com/ttl30/518216250837445943/123553632877/v2/aeMNNB0KmUIP8rnQ996tC5Q/38275115-af96-46e2-8854-97f197d32d29_eye_bag_output.png?[signature-removed]"
+            ],
+            "raw_score": 69.87030506134033,
+            "type": "eye_bag",
+            "url": null
+          },
+          {
+            "ui_score": 72,
+            "mask_urls": [
+              "https://yce-us.s3-accelerate.amazonaws.com/ttl30/518216250837445943/123553632877/v2/aeMNNB0KmUIP8rnQ996tC5Q/38275115-af96-46e2-8854-97f197d32d29_texture_output.png?[signature-removed]"
+            ],
+            "raw_score": 60.4087769985199,
+            "type": "texture",
+            "url": null
+          },
+          {
+            "ui_score": 72,
+            "mask_urls": [
+              "https://yce-us.s3-accelerate.amazonaws.com/ttl30/518216250837445943/123553632877/v2/aeMNNB0KmUIP8rnQ996tC5Q/38275115-af96-46e2-8854-97f197d32d29_age_spot_output.png?[signature-removed]"
+            ],
+            "raw_score": 73.59075164794922,
+            "type": "age_spot",
+            "url": null
+          },
+          {
+            "ui_score": 70,
+            "mask_urls": [
+              "https://yce-us.s3-accelerate.amazonaws.com/ttl30/518216250837445943/123553632877/v2/aeMNNB0KmUIP8rnQ996tC5Q/38275115-af96-46e2-8854-97f197d32d29_dark_circle_v2_output.png?[signature-removed]"
+            ],
+            "raw_score": 64.40515518188477,
+            "type": "dark_circle_v2",
+            "url": null
+          },
+          {
+            "ui_score": 67,
+            "mask_urls": [
+              "https://yce-us.s3-accelerate.amazonaws.com/ttl30/518216250837445943/123553632877/v2/aeMNNB0KmUIP8rnQ996tC5Q/38275115-af96-46e2-8854-97f197d32d29_radiance_output.png?[signature-removed]"
+            ],
+            "raw_score": 48.83007109165192,
+            "type": "radiance",
+            "url": null
+          },
+          {
+            "ui_score": 74,
+            "mask_urls": [
+              "https://yce-us.s3-accelerate.amazonaws.com/ttl30/518216250837445943/123553632877/v2/aeMNNB0KmUIP8rnQ996tC5Q/38275115-af96-46e2-8854-97f197d32d29_acne_output.png?[signature-removed]"
+            ],
+            "raw_score": 64.16420000000001,
+            "type": "acne",
+            "url": null
+          },
+          {
+            "ui_score": 81,
+            "mask_urls": [
+              "https://yce-us.s3-accelerate.amazonaws.com/ttl30/518216250837445943/123553632877/v2/aeMNNB0KmUIP8rnQ996tC5Q/38275115-af96-46e2-8854-97f197d32d29_wrinkle_output.png?[signature-removed]"
+            ],
+            "raw_score": 90.76818823814392,
+            "type": "wrinkle",
+            "url": null
+          },
+          {
+            "ui_score": 66,
+            "mask_urls": [
+              "https://yce-us.s3-accelerate.amazonaws.com/ttl30/518216250837445943/123553632877/v2/aeMNNB0KmUIP8rnQ996tC5Q/38275115-af96-46e2-8854-97f197d32d29_moisture_output.png?[signature-removed]"
+            ],
+            "raw_score": 39.93707597255707,
+            "type": "moisture",
+            "url": null
+          },
+          {
+            "mask_urls": [
+              "https://yce-us.s3-accelerate.amazonaws.com/ttl30/518216250837445943/123553632877/v2/aeMNNB0KmUIP8rnQ996tC5Q/38275115-af96-46e2-8854-97f197d32d29_skin_type_output.png?[signature-removed]"
+            ],
+            "type": "skin_type",
+            "region": "whole",
+            "skin_type": "Dry",
+            "url": null
+          },
+          {
+            "mask_urls": [
+              "https://yce-us.s3-accelerate.amazonaws.com/ttl30/518216250837445943/123553632877/v2/aeMNNB0KmUIP8rnQ996tC5Q/38275115-af96-46e2-8854-97f197d32d29_skin_type_t_zone_output.png?[signature-removed]"
+            ],
+            "type": "skin_type",
+            "region": "t_zone",
+            "skin_type": "Normal",
+            "url": null
+          },
+          {
+            "mask_urls": [
+              "https://yce-us.s3-accelerate.amazonaws.com/ttl30/518216250837445943/123553632877/v2/aeMNNB0KmUIP8rnQ996tC5Q/38275115-af96-46e2-8854-97f197d32d29_skin_type_u_zone_output.png?[signature-removed]"
+            ],
+            "type": "skin_type",
+            "region": "u_zone",
+            "skin_type": "Dry",
+            "url": null
+          },
+          {
+            "score": 72.66666666666667,
+            "type": "all",
+            "url": null
+          },
+          {
+            "score": 39,
+            "type": "skin_age",
+            "url": null
+          },
+          {
+            "mask_urls": [
+              "https://yce-us.s3-accelerate.amazonaws.com/ttl30/518216250837445943/123553632877/v2/aeMNNB0KmUIP8rnQ996tC5Q/38275115-af96-46e2-8854-97f197d32d29_resize_image.jpg?[signature-removed]"
+            ],
+            "type": "resize_image",
+            "url": null
+          }
+        ]
+      },
+      "task_status": "success"
+    }
+  },
+  "masks": {
+    "texture": "c8c4c371eae407b044573fe8966fafed7a8eea77be4f5c44274c1cb9a1e1ad73/texture.png",
+    "tear_trough": "c8c4c371eae407b044573fe8966fafed7a8eea77be4f5c44274c1cb9a1e1ad73/tear_trough.png",
+    "skin_type": "c8c4c371eae407b044573fe8966fafed7a8eea77be4f5c44274c1cb9a1e1ad73/skin_type.png",
+    "wrinkle": "c8c4c371eae407b044573fe8966fafed7a8eea77be4f5c44274c1cb9a1e1ad73/wrinkle.png",
+    "firmness": "c8c4c371eae407b044573fe8966fafed7a8eea77be4f5c44274c1cb9a1e1ad73/firmness.png",
+    "eye_bag": "c8c4c371eae407b044573fe8966fafed7a8eea77be4f5c44274c1cb9a1e1ad73/eye_bag.png",
+    "acne": "c8c4c371eae407b044573fe8966fafed7a8eea77be4f5c44274c1cb9a1e1ad73/acne.png",
+    "droopy_lower_eyelid": "c8c4c371eae407b044573fe8966fafed7a8eea77be4f5c44274c1cb9a1e1ad73/droopy_lower_eyelid.png",
+    "droopy_upper_eyelid": "c8c4c371eae407b044573fe8966fafed7a8eea77be4f5c44274c1cb9a1e1ad73/droopy_upper_eyelid.png",
+    "pore": "c8c4c371eae407b044573fe8966fafed7a8eea77be4f5c44274c1cb9a1e1ad73/pore.png",
+    "oiliness": "c8c4c371eae407b044573fe8966fafed7a8eea77be4f5c44274c1cb9a1e1ad73/oiliness.png",
+    "dark_circle_v2": "c8c4c371eae407b044573fe8966fafed7a8eea77be4f5c44274c1cb9a1e1ad73/dark_circle_v2.png",
+    "age_spot": "c8c4c371eae407b044573fe8966fafed7a8eea77be4f5c44274c1cb9a1e1ad73/age_spot.png",
+    "redness": "c8c4c371eae407b044573fe8966fafed7a8eea77be4f5c44274c1cb9a1e1ad73/redness.png",
+    "skin_type:t_zone": "c8c4c371eae407b044573fe8966fafed7a8eea77be4f5c44274c1cb9a1e1ad73/skin_type_t_zone.png",
+    "skin_type:u_zone": "c8c4c371eae407b044573fe8966fafed7a8eea77be4f5c44274c1cb9a1e1ad73/skin_type_u_zone.png",
+    "radiance": "c8c4c371eae407b044573fe8966fafed7a8eea77be4f5c44274c1cb9a1e1ad73/radiance.png",
+    "moisture": "c8c4c371eae407b044573fe8966fafed7a8eea77be4f5c44274c1cb9a1e1ad73/moisture.png",
+    "resize_image": "c8c4c371eae407b044573fe8966fafed7a8eea77be4f5c44274c1cb9a1e1ad73/resize_image.png"
+  },
+  "createdAt": "2026-10-28T00:27:20.661Z"
+}

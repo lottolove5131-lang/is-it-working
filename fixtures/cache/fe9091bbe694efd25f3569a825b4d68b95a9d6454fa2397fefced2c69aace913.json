@@ -1,0 +1,23 @@
+{
+  "key": "fe9091bbe694efd25f3569a825b4d68b95a9d6454fa2397fefced2c69aace913",
+  "feature": "skin-simulation",
+  "endpoint": "/s2s/v2.0/task/skin-simulation",
+  "params": {
+    "acne": 0.5,
+    "redness": 0.5,
+    "spots": 0.5
+  },
+  "units": 4,
+  "raw": {
+    "status": 200,
+    "data": {
+      "error": null,
+      "results": {
+        "url": "https://yce-us.s3-accelerate.amazonaws.com/ttl30/518216250837445943/123553527530/v2/aeMNNB0KmUIP8rnQ996tC5Q/d3e97557-144d-4f69-9162-2c64e242e07d.png?[signature-removed]"
+      },
+      "task_status": "success"
+    }
+  },
+  "image": "fe9091bbe694efd25f3569a825b4d68b95a9d6454fa2397fefced2c69aace913/simulated.jpg",
+  "createdAt": "2026-10-28T00:25:32.254Z"
+}

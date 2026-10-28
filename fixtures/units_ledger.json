@@ -1,0 +1,121 @@
+[
+  {
+    "at": "2026-10-28T00:13:39.901Z",
+    "feature": "text-to-image",
+    "units": 1,
+    "status": "success",
+    "key": "fe88edc154f4adb114288ad232f6bcac17b5e0bf20f4ed5541352fc74ae0c6ce"
+  },
+  {
+    "at": "2026-10-28T00:14:06.387Z",
+    "feature": "skin-analysis",
+    "units": 16,
+    "status": "success",
+    "key": "916e2b4b846fc4a4a4b0c4afc9ad62762104a9d395c9871d8fbd018b9ce520ea"
+  },
+  {
+    "at": "2026-10-28T00:14:58.881Z",
+    "feature": "skin-simulation",
+    "units": 4,
+    "status": "success",
+    "key": "cd6a5e348b99c79f3363f6ce4500e9d63e267edc7598eda000795f9446e5db9a"
+  },
+  {
+    "at": "2026-10-28T00:15:07.670Z",
+    "feature": "skin-simulation",
+    "units": 4,
+    "status": "success",
+    "key": "588cdf74b349e0165e724bffc5cdaa1bc4a985e4570ea990963d97f6bcbd678d"
+  },
+  {
+    "at": "2026-10-28T00:15:10.354Z",
+    "feature": "skin-analysis",
+    "units": 0,
+    "status": "error",
+    "error": "YouCam POST /s2s/v2.0/task/skin-analysis -> 400: Your account doesn't have enough credits to complete this request."
+  },
+  {
+    "at": "2026-10-28T00:15:47.827Z",
+    "feature": "skin-analysis",
+    "units": 9,
+    "status": "success",
+    "key": "d428b16e3ca92187d409164feccf6908f7b1362f58952d8a3d8a064042e3ebc7"
+  },
+  {
+    "at": "2026-10-28T00:24:49.126Z",
+    "feature": "skin-analysis",
+    "units": 16,
+    "status": "success",
+    "key": "ba6404d67487ef5dff7a89e53cbc79f9775a337a64aa89821c2a291464032e37"
+  },
+  {
+    "at": "2026-10-28T00:25:02.695Z",
+    "feature": "skin-analysis",
+    "units": 16,
+    "status": "success",
+    "key": "e95cbcb489d0854a085b5fa1f0e46e2f82541faadfd5e46acef098f0fd488246"
+  },
+  {
+    "at": "2026-10-28T00:25:31.604Z",
+    "feature": "skin-simulation",
+    "units": 4,
+    "status": "success",
+    "key": "fe9091bbe694efd25f3569a825b4d68b95a9d6454fa2397fefced2c69aace913"
+  },
+  {
+    "at": "2026-10-28T00:25:39.678Z",
+    "feature": "skin-analysis",
+    "units": 16,
+    "status": "success",
+    "key": "31ceb3e634fa98ebdf7a548aacaa297a97a4ec5d87a799c2c9f4a9b4a14c885e"
+  },
+  {
+    "at": "2026-10-28T00:25:50.853Z",
+    "feature": "skin-analysis",
+    "units": 16,
+    "status": "success",
+    "key": "13987c6b7fb6dd1e59017e6435cb0366720cf9b13bd15da2d68dda0ecfb611c3"
+  },
+  {
+    "at": "2026-10-28T00:27:02.314Z",
+    "feature": "skin-analysis",
+    "units": 16,
+    "status": "success",
+    "key": "33d0d4132c69bc18a6e1319dbc904bbf78019deba286e423386b75552abcd61d"
+  },
+  {
+    "at": "2026-10-28T00:27:10.649Z",
+    "feature": "skin-analysis",
+    "units": 16,
+    "status": "success",
+    "key": "eec72032dbe5de1e6d99bdd6401fd5d0e6faeb80fde49d14703c28d6fb15d579"
+  },
+  {
+    "at": "2026-10-28T00:27:19.677Z",
+    "feature": "skin-analysis",
+    "units": 16,
+    "status": "success",
+    "key": "c8c4c371eae407b044573fe8966fafed7a8eea77be4f5c44274c1cb9a1e1ad73"
+  },
+  {
+    "at": "2026-10-28T00:27:28.176Z",
+    "feature": "skin-analysis",
+    "units": 16,
+    "status": "success",
+    "key": "72e0f905b8089e5d292efee0770b4fc96097dd1f704901d8fc0a35ce387b8f2e"
+  },
+  {
+    "at": "2026-10-28T00:27:37.172Z",
+    "feature": "skin-analysis",
+    "units": 16,
+    "status": "success",
+    "key": "54af5aaadad32f7dc951034b527784748b373844d6b81671e4ea17d72c686fb8"
+  },
+  {
+    "at": "2026-10-28T00:27:45.269Z",
+    "feature": "skin-analysis",
+    "units": 16,
+    "status": "success",
+    "key": "7906e41d5f60fa429be52baee47e44b1f7ed43a88ffeb9f1182ebcd560a1947a"
+  }
+]

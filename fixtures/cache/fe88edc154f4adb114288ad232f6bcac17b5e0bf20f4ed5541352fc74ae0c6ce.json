@@ -1,0 +1,19 @@
+{
+  "key": "fe88edc154f4adb114288ad232f6bcac17b5e0bf20f4ed5541352fc74ae0c6ce",
+  "feature": "text-to-image",
+  "endpoint": "/s2s/v2.0/task/text-to-image/youcam",
+  "prompt": "Photorealistic clinical skincare photo, extreme close-up head-and-shoulders, a woman in her late 20s looking straight into the camera, neutral relaxed expression, mouth closed, eyes open, hair tied back so the whole forehead is visible, no makeup, natural skin with visible pores on nose and cheeks, a few small red acne blemishes on the chin and cheeks, mild redness around the nose, faint dark spots, soft even daylight from the front, plain light grey background, the face fills most of the frame width, sharp focus, high detail skin texture, DSLR 85mm",
+  "units": 1,
+  "raw": {
+    "status": 200,
+    "data": {
+      "error": null,
+      "results": {
+        "url": "https://yce-us.s3-accelerate.amazonaws.com/ttl30/518216250837445943/123552809677/v2/aeMNNB0KmUIP8rnQ996tC5Q/12df8e74-f08a-45bd-8629-2811449ea567.jpg?[signature-removed]"
+      },
+      "task_status": "success"
+    }
+  },
+  "image": "fe88edc154f4adb114288ad232f6bcac17b5e0bf20f4ed5541352fc74ae0c6ce/generated.jpg",
+  "createdAt": "2026-10-28T00:13:41.174Z"
+}

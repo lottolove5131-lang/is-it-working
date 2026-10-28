@@ -1,0 +1,17 @@
+{
+  "endpoint": "/s2s/v2.0/task/skin-simulation",
+  "request": {
+    "acne": 0.85,
+    "redness": 0.7
+  },
+  "response": {
+    "status": 200,
+    "data": {
+      "error": null,
+      "results": {
+        "url": "https://yce-us.s3-accelerate.amazonaws.com/ttl30/518216250837445943/123552900758/v2/aeMNNB0KmUIP8rnQ996tC5Q/e6618c92-f70f-4b24-a563-bf726cb4fa03.png?[signature-removed]"
+      },
+      "task_status": "success"
+    }
+  }
+}

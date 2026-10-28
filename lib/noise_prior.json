@@ -1,0 +1,23 @@
+{
+  "note": "Per-concern prior photo noise (SD of one YouCam Skin Analysis raw score), from same-day Day 0 retake pairs.",
+  "pairs": 3,
+  "floor": 1.5,
+  "sigma": {
+    "eye_bag": 1.5,
+    "tear_trough": 1.81,
+    "droopy_lower_eyelid": 1.5,
+    "redness": 1.5,
+    "droopy_upper_eyelid": 1.5,
+    "pore": 4.78,
+    "firmness": 1.68,
+    "age_spot": 1.5,
+    "texture": 10.71,
+    "oiliness": 2.46,
+    "radiance": 1.5,
+    "dark_circle_v2": 3.09,
+    "wrinkle": 2.58,
+    "acne": 1.5,
+    "moisture": 1.5
+  },
+  "generatedAt": "2026-10-28T00:28:36.177Z"
+}
